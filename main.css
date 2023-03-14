@@ -1,0 +1,96 @@
+* {
+    font-family: 'Dancing Script';
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.2rem;
+    height: 100%;
+    letter-spacing: .1em;    
+}
+
+.container {
+    background-color: #d6b8b8;
+    padding: 3rem 1.8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    border: 1px solid #4e7558;
+    max-width: 45.5rem;
+    box-shadow: 0 1.25rem 1.8rem #383708;
+    border-radius: 45px;
+    background-image: url(/image/bgTwo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.detailBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    color: #fff;
+}
+
+.weatherContainer {
+    padding: 1.2rem;
+    text-align: center;
+    order: 2;
+    margin: 1rem 0;
+    box-shadow: 0 1.25rem 1.8rem #7a612f;
+    border-radius: 5px;
+}
+
+.temp  {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.dateTime {
+    margin: 1rem 0;
+}
+
+nav input {
+    width: 170%;
+    padding: .5rem 1rem;
+    font-size: 12px;
+    font-weight: 200;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+}
+
+.searchButton  {
+    cursor: pointer;
+    font-size: 1rem;
+    color: #000;
+    width: 80px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: #fff;
+
+} 
