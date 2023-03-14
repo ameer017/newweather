@@ -10,7 +10,7 @@ form.addEventListener('submit', searchForLocation)
 
 let target = 'Nigeria';
 const fetchResult = async (targetLocation) => {
-    const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=599d9cf4d41b4f22907101716231403&q=${targetLocation}&aqi=no`)
+    const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=599d9cf4d41b4f22907101716231403&q=${targetLocation}&aqi=no`)
     // console.log(response)
 
     const data = await response.json()
